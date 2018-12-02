@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110C4554207C5F8A00757558 /* protocol GameBackgroundSpritable + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C4553207C5F8A00757558 /* protocol GameBackgroundSpritable + extension.swift */; };
+		110C4556207C714E00757558 /* protocol AliveBackgroundElementsSpritable + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C4555207C714E00757558 /* protocol AliveBackgroundElementsSpritable + extension.swift */; };
+		1125ABA22086F83A00327D94 /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1125ABA12086F83A00327D94 /* PowerUp.swift */; };
+		112F86AB207072970088DD73 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F86AA207072970088DD73 /* Background.swift */; };
+		112F86AD207078380088DD73 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F86AC207078380088DD73 /* Fish.swift */; };
+		112F86AF2070801A0088DD73 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F86AE2070801A0088DD73 /* Plant.swift */; };
+		115DFEC9209429FF00617397 /* SubmarineTextures.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 115DFEC8209429FF00617397 /* SubmarineTextures.atlas */; };
+		119A578B20A14ABD004E1F51 /* EnemyUnit1Shield.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 119A578A20A14ABD004E1F51 /* EnemyUnit1Shield.atlas */; };
+		119A578D20A1501B004E1F51 /* EnemyUnit1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 119A578C20A1501B004E1F51 /* EnemyUnit1.atlas */; };
+		119D9E402071C74600C84EAD /* Shark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D9E3F2071C74600C84EAD /* Shark.swift */; };
+		11A2470C20A3FAF400031598 /* EnemyUnit2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 11A2470B20A3FAF400031598 /* EnemyUnit2.atlas */; };
+		11A3E20A2070C8700061DB83 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3E2092070C8700061DB83 /* Star.swift */; };
+		11A57352207060CC00D17DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A57351207060CC00D17DA2 /* AppDelegate.swift */; };
+		11A57358207060CC00D17DA2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A57357207060CC00D17DA2 /* GameScene.swift */; };
+		11A5735A207060CC00D17DA2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A57359207060CC00D17DA2 /* GameViewController.swift */; };
+		11A5735D207060CC00D17DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A5735B207060CC00D17DA2 /* Main.storyboard */; };
+		11A5735F207060CC00D17DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A5735E207060CC00D17DA2 /* Assets.xcassets */; };
+		11A57362207060CC00D17DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A57360207060CC00D17DA2 /* LaunchScreen.storyboard */; };
+		11B2FABB20A48E20003F8696 /* EnemyUnit_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2FABA20A48E20003F8696 /* EnemyUnit_3.swift */; };
+		11B3627D20A1D72E00B815AB /* EnemyUnit_1Shield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3627C20A1D72E00B815AB /* EnemyUnit_1Shield.swift */; };
+		11D18876208D7CA0001494EA /* EnemyUnit_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D18875208D7CA0001494EA /* EnemyUnit_1.swift */; };
+		11D606C1207B09D900BCEA15 /* PlayerSubmarine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D606C0207B09D900BCEA15 /* PlayerSubmarine.swift */; };
+		11DAA3CB209AAD5B009E8288 /* Stone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAA3CA209AAD5B009E8288 /* Stone.swift */; };
+		11DDBF1A209C054E006FA343 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DDBF19209C054E006FA343 /* Shell.swift */; };
+		11E936E82088432A008F1ABA /* PowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 11E936E72088432A008F1ABA /* PowerUp.atlas */; };
+		11ED955720A3F2DE004DF1B8 /* EnemyUnit_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED955620A3F2DE004DF1B8 /* EnemyUnit_2.swift */; };
+		11F78AF720A6B22E004F0450 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78AF620A6B22E004F0450 /* Shot.swift */; };
+		11F78AF920A6B5F3004F0450 /* RedShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78AF820A6B5F3004F0450 /* RedShot.swift */; };
+		11F78AFB20A6BBA6004F0450 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78AFA20A6BBA6004F0450 /* Assets.swift */; };
+		11F78AFD20A6C60A004F0450 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78AFC20A6C60A004F0450 /* MenuScene.swift */; };
+		11FA13E020A7F18100646115 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA13DF20A7F18100646115 /* BitMaskCategory.swift */; };
+		11FA13E220A8166400646115 /* Shot1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 11FA13E120A8166400646115 /* Shot1.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110C4553207C5F8A00757558 /* protocol GameBackgroundSpritable + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol GameBackgroundSpritable + extension.swift"; sourceTree = "<group>"; };
+		110C4555207C714E00757558 /* protocol AliveBackgroundElementsSpritable + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol AliveBackgroundElementsSpritable + extension.swift"; sourceTree = "<group>"; };
+		1125ABA12086F83A00327D94 /* PowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
+		112F86AA207072970088DD73 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		112F86AC207078380088DD73 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		112F86AE2070801A0088DD73 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		115DFEC8209429FF00617397 /* SubmarineTextures.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SubmarineTextures.atlas; sourceTree = "<group>"; };
+		119A578A20A14ABD004E1F51 /* EnemyUnit1Shield.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EnemyUnit1Shield.atlas; sourceTree = "<group>"; };
+		119A578C20A1501B004E1F51 /* EnemyUnit1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EnemyUnit1.atlas; sourceTree = "<group>"; };
+		119D9E3F2071C74600C84EAD /* Shark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shark.swift; sourceTree = "<group>"; };
+		11A2470B20A3FAF400031598 /* EnemyUnit2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EnemyUnit2.atlas; sourceTree = "<group>"; };
+		11A3E2092070C8700061DB83 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		11A5734E207060CC00D17DA2 /* Submarine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Submarine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A57351207060CC00D17DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A57357207060CC00D17DA2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		11A57359207060CC00D17DA2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		11A5735C207060CC00D17DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A5735E207060CC00D17DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A57361207060CC00D17DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A57363207060CC00D17DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B2FABA20A48E20003F8696 /* EnemyUnit_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyUnit_3.swift; sourceTree = "<group>"; };
+		11B3627C20A1D72E00B815AB /* EnemyUnit_1Shield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyUnit_1Shield.swift; sourceTree = "<group>"; };
+		11D18875208D7CA0001494EA /* EnemyUnit_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyUnit_1.swift; sourceTree = "<group>"; };
+		11D606C0207B09D900BCEA15 /* PlayerSubmarine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSubmarine.swift; sourceTree = "<group>"; };
+		11DAA3CA209AAD5B009E8288 /* Stone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stone.swift; sourceTree = "<group>"; };
+		11DDBF19209C054E006FA343 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		11E936E72088432A008F1ABA /* PowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PowerUp.atlas; sourceTree = "<group>"; };
+		11ED955620A3F2DE004DF1B8 /* EnemyUnit_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyUnit_2.swift; sourceTree = "<group>"; };
+		11F78AF620A6B22E004F0450 /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		11F78AF820A6B5F3004F0450 /* RedShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedShot.swift; sourceTree = "<group>"; };
+		11F78AFA20A6BBA6004F0450 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		11F78AFC20A6C60A004F0450 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		11FA13DF20A7F18100646115 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
+		11FA13E120A8166400646115 /* Shot1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Shot1.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A5734B207060CC00D17DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119D9E412071C9FF00C84EAD /* Background elements */ = {
+			isa = PBXGroup;
+			children = (
+				112F86AA207072970088DD73 /* Background.swift */,
+				11A1C560207DADB300A497DF /* StaticBackgroundElements */,
+				11A1C55F207DAD9200A497DF /* AliveBackgroundElements */,
+			);
+			path = "Background elements";
+			sourceTree = "<group>";
+		};
+		11A1C55F207DAD9200A497DF /* AliveBackgroundElements */ = {
+			isa = PBXGroup;
+			children = (
+				110C4555207C714E00757558 /* protocol AliveBackgroundElementsSpritable + extension.swift */,
+				119D9E3F2071C74600C84EAD /* Shark.swift */,
+				112F86AC207078380088DD73 /* Fish.swift */,
+			);
+			path = AliveBackgroundElements;
+			sourceTree = "<group>";
+		};
+		11A1C560207DADB300A497DF /* StaticBackgroundElements */ = {
+			isa = PBXGroup;
+			children = (
+				110C4553207C5F8A00757558 /* protocol GameBackgroundSpritable + extension.swift */,
+				112F86AE2070801A0088DD73 /* Plant.swift */,
+				11DDBF19209C054E006FA343 /* Shell.swift */,
+				11A3E2092070C8700061DB83 /* Star.swift */,
+				11DAA3CA209AAD5B009E8288 /* Stone.swift */,
+			);
+			path = StaticBackgroundElements;
+			sourceTree = "<group>";
+		};
+		11A57345207060CC00D17DA2 = {
+			isa = PBXGroup;
+			children = (
+				11A57350207060CC00D17DA2 /* Submarine */,
+				11A5734F207060CC00D17DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A5734F207060CC00D17DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A5734E207060CC00D17DA2 /* Submarine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A57350207060CC00D17DA2 /* Submarine */ = {
+			isa = PBXGroup;
+			children = (
+				11A57351207060CC00D17DA2 /* AppDelegate.swift */,
+				11F78AFC20A6C60A004F0450 /* MenuScene.swift */,
+				11FA13DF20A7F18100646115 /* BitMaskCategory.swift */,
+				11F78AFA20A6BBA6004F0450 /* Assets.swift */,
+				11A57357207060CC00D17DA2 /* GameScene.swift */,
+				11E9BBBA2099555600FE5618 /* PowerUps */,
+				11E9BBBB2099668500FE5618 /* EnemyUnits */,
+				11D606C0207B09D900BCEA15 /* PlayerSubmarine.swift */,
+				11F78AF620A6B22E004F0450 /* Shot.swift */,
+				11F78AF820A6B5F3004F0450 /* RedShot.swift */,
+				11A57359207060CC00D17DA2 /* GameViewController.swift */,
+				119D9E412071C9FF00C84EAD /* Background elements */,
+				11A5735B207060CC00D17DA2 /* Main.storyboard */,
+				11FA13E120A8166400646115 /* Shot1.atlas */,
+				119A578C20A1501B004E1F51 /* EnemyUnit1.atlas */,
+				11A2470B20A3FAF400031598 /* EnemyUnit2.atlas */,
+				119A578A20A14ABD004E1F51 /* EnemyUnit1Shield.atlas */,
+				11E936E72088432A008F1ABA /* PowerUp.atlas */,
+				11A5735E207060CC00D17DA2 /* Assets.xcassets */,
+				115DFEC8209429FF00617397 /* SubmarineTextures.atlas */,
+				11A57360207060CC00D17DA2 /* LaunchScreen.storyboard */,
+				11A57363207060CC00D17DA2 /* Info.plist */,
+			);
+			path = Submarine;
+			sourceTree = "<group>";
+		};
+		11E9BBBA2099555600FE5618 /* PowerUps */ = {
+			isa = PBXGroup;
+			children = (
+				1125ABA12086F83A00327D94 /* PowerUp.swift */,
+			);
+			path = PowerUps;
+			sourceTree = "<group>";
+		};
+		11E9BBBB2099668500FE5618 /* EnemyUnits */ = {
+			isa = PBXGroup;
+			children = (
+				11D18875208D7CA0001494EA /* EnemyUnit_1.swift */,
+				11B2FABA20A48E20003F8696 /* EnemyUnit_3.swift */,
+				11B3627C20A1D72E00B815AB /* EnemyUnit_1Shield.swift */,
+				11ED955620A3F2DE004DF1B8 /* EnemyUnit_2.swift */,
+			);
+			path = EnemyUnits;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A5734D207060CC00D17DA2 /* Submarine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A57366207060CC00D17DA2 /* Build configuration list for PBXNativeTarget "Submarine" */;
+			buildPhases = (
+				11A5734A207060CC00D17DA2 /* Sources */,
+				11A5734B207060CC00D17DA2 /* Frameworks */,
+				11A5734C207060CC00D17DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Submarine;
+			productName = Submarine;
+			productReference = 11A5734E207060CC00D17DA2 /* Submarine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A57346207060CC00D17DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Yaroslav Abaturov";
+				TargetAttributes = {
+					11A5734D207060CC00D17DA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11A57349207060CC00D17DA2 /* Build configuration list for PBXProject "Submarine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A57345207060CC00D17DA2;
+			productRefGroup = 11A5734F207060CC00D17DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A5734D207060CC00D17DA2 /* Submarine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A5734C207060CC00D17DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FA13E220A8166400646115 /* Shot1.atlas in Resources */,
+				115DFEC9209429FF00617397 /* SubmarineTextures.atlas in Resources */,
+				119A578D20A1501B004E1F51 /* EnemyUnit1.atlas in Resources */,
+				119A578B20A14ABD004E1F51 /* EnemyUnit1Shield.atlas in Resources */,
+				11A2470C20A3FAF400031598 /* EnemyUnit2.atlas in Resources */,
+				11E936E82088432A008F1ABA /* PowerUp.atlas in Resources */,
+				11A5735D207060CC00D17DA2 /* Main.storyboard in Resources */,
+				11A5735F207060CC00D17DA2 /* Assets.xcassets in Resources */,
+				11A57362207060CC00D17DA2 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A5734A207060CC00D17DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112F86AD207078380088DD73 /* Fish.swift in Sources */,
+				112F86AF2070801A0088DD73 /* Plant.swift in Sources */,
+				11B2FABB20A48E20003F8696 /* EnemyUnit_3.swift in Sources */,
+				11D18876208D7CA0001494EA /* EnemyUnit_1.swift in Sources */,
+				11A57358207060CC00D17DA2 /* GameScene.swift in Sources */,
+				11ED955720A3F2DE004DF1B8 /* EnemyUnit_2.swift in Sources */,
+				11A3E20A2070C8700061DB83 /* Star.swift in Sources */,
+				11D606C1207B09D900BCEA15 /* PlayerSubmarine.swift in Sources */,
+				11FA13E020A7F18100646115 /* BitMaskCategory.swift in Sources */,
+				11F78AFB20A6BBA6004F0450 /* Assets.swift in Sources */,
+				11A5735A207060CC00D17DA2 /* GameViewController.swift in Sources */,
+				110C4554207C5F8A00757558 /* protocol GameBackgroundSpritable + extension.swift in Sources */,
+				11A57352207060CC00D17DA2 /* AppDelegate.swift in Sources */,
+				11B3627D20A1D72E00B815AB /* EnemyUnit_1Shield.swift in Sources */,
+				11F78AFD20A6C60A004F0450 /* MenuScene.swift in Sources */,
+				11DAA3CB209AAD5B009E8288 /* Stone.swift in Sources */,
+				11F78AF920A6B5F3004F0450 /* RedShot.swift in Sources */,
+				112F86AB207072970088DD73 /* Background.swift in Sources */,
+				11F78AF720A6B22E004F0450 /* Shot.swift in Sources */,
+				119D9E402071C74600C84EAD /* Shark.swift in Sources */,
+				11DDBF1A209C054E006FA343 /* Shell.swift in Sources */,
+				1125ABA22086F83A00327D94 /* PowerUp.swift in Sources */,
+				110C4556207C714E00757558 /* protocol AliveBackgroundElementsSpritable + extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11A5735B207060CC00D17DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A5735C207060CC00D17DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A57360207060CC00D17DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A57361207060CC00D17DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A57364207060CC00D17DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A57365207060CC00D17DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A57367207060CC00D17DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54L37Y4QC4;
+				INFOPLIST_FILE = Submarine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Submarine.Submarine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A57368207060CC00D17DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54L37Y4QC4;
+				INFOPLIST_FILE = Submarine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Submarine.Submarine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A57349207060CC00D17DA2 /* Build configuration list for PBXProject "Submarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A57364207060CC00D17DA2 /* Debug */,
+				11A57365207060CC00D17DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A57366207060CC00D17DA2 /* Build configuration list for PBXNativeTarget "Submarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A57367207060CC00D17DA2 /* Debug */,
+				11A57368207060CC00D17DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A57346207060CC00D17DA2 /* Project object */;
+}
